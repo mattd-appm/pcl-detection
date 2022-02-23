@@ -1,4 +1,4 @@
-## Detection of Patronizing and Condescending Language
+# Detection of Patronizing and Condescending Language
 Detecting patronizing and condescending language (pcl) using natural language processing
 
 ## Data
@@ -14,24 +14,17 @@ logistic regression on both word embeddings, Naïve Bayes classifiers on the Tf-
 and a neural net on the word2vec word embeddings. 
 
 ## Challenges
-1.) Small dataset
-
-2.) Subtlety and ambiguity in definition of patronizing language
-
-3.) Unbalanced data with 9.5% positive examples
-
-4.) Overfitting
+1. Small dataset
+2. Subtlety and ambiguity in definition of patronizing language
+3. Unbalanced data with 9.5% positive examples
+4. Overfitting
 
 ## F1 scores in Models
-Model 1: Logistic Regression Using Word2vec Embeddings
-  F1 metric in the test dataset: 0.2998
-
-Model 2: Logistic Regression with tf-Idf 
-  F1 metric in the test dataset: 0.3778
-
-Model 3: Naïve-Bayes Classifier with Tf-Idf
-  F1 metric in the test dataset: 0.3806 
-  
-Model 4: Feed-Forward Neural Network with word2vec 
-Embeddings
-  F1 metric in the test dataset: 0.2824
+1. Logistic Regression Using Word2vec Embeddings
+   - F1 metric in the test dataset: 0.2998
+2. Logistic Regression with tf-Idf 
+   - F1 metric in the test dataset: 0.3778
+3. Naïve-Bayes Classifier with tf-Idf
+   - F1 metric in the test dataset: 0.3806 
+4. Feed-Forward Neural Network with word2vec Embeddings
+   - F1 metric in the test dataset: 0.2824
